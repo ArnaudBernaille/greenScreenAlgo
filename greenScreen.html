@@ -1,0 +1,23 @@
+<head>
+  <title> Green screen</title>
+</head>
+
+<h1>Green screen algo</h1>
+<canvas id="canvas1"></canvas>
+<canvas id="canvas2"></canvas>
+
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+<p>
+<div>
+  <input type="button" id="btnUpload" onclick="upload()" value="Upload image" />
+
+  <input type="button" id="btnGreenScreen" onclick="applyGreenScreen()" value="Apply green screen" />
+</div>
+</p>
+Import foreground image and then the background one
+<p>
+  <input type="file" id="id_fileUploadImg" accept=".jpeg">
+</p>
+
+<canvas id="canvas3"></canvas>

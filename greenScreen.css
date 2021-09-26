@@ -1,0 +1,15 @@
+h1 {
+  color: black;
+}
+
+canvas {
+  height: 180px;
+  width: 180px;
+  background-color: black;
+}
+
+#btn1 {
+  height: 20px;
+  width: 130px;
+}
+
